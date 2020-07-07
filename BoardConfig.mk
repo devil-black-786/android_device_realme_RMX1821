@@ -137,5 +137,8 @@ DEVICE_FRAMEWORK_MANIFEST_FILE := $(LOCAL_PATH)/framework_manifest.xml
 # Append VBMeta to Boot Image
 MAIN_VBMETA_IN_BOOT := yes
 
+# Symbols
+TARGET_LD_SHIM_LIBS := /system/lib/libshowlogo.so|libshim_showlogo.so
+
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
